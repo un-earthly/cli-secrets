@@ -1,0 +1,11 @@
+/target
+/Cargo.lock
+# We might want to commit Cargo.lock for binary crates, but for workspaces, it's optional. Let's keep it or commit it depending on preference. Usually committing Cargo.lock is good for reproducible builds of bin crates. Let's NOT ignore Cargo.lock, but ignore target/.
+# Node / Vite
+/web/node_modules
+/web/dist
+.DS_Store
+.env
+.env.*
+!.env.example
+*.log
